@@ -1,0 +1,373 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="font-family: arial;font-size: 12px;margin: 0;padding: 0;">
+
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!--[if !mso]><!-->
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--<![endif]-->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- if (gte mso 9)|(IE)]>
+<style type="text/css">
+   table {border-collapse: collapse;}
+</style>
+<![endif] -->
+     <title></title>
+<style type="text/css">
+/* Basics */
+html {
+     font-family: arial;
+     font-size: 12px;
+     Margin: 0; /* capitalizing "margin" so that Outlook doesn't strip it out*/
+     padding: 0;
+}
+body {
+     Margin: 0 !important;/* for an alignment issue on Android KitKat*/
+     padding: 0;
+     background-color: #eaeaea;
+}
+table {
+     border-spacing: 0;
+     font-family: sans-serif;
+     color: #333333;
+     background-color: #ffffff;
+}
+td.full-width-image {
+     padding: 0;
+}
+.full-width-image img {
+     width: 100%;
+     max-width: 600px;
+}
+.wrapper {
+     width: 100%;
+     table-layout: fixed;
+     -webkit-text-size-adjust: 100%;
+     -ms-text-size-adjust: 100%;
+}
+.webkit {
+     max-width: 600px;
+     Margin: 0 auto;
+}
+.outer {
+     Margin: 0 auto;
+     width: 100%;
+     max-width: 600px;
+}
+.two-column {
+     width: 100%;
+}
+.bold {
+     font-weight: bold;
+     color: #0067c5;
+}
+img {
+     display: inline-block;
+     width: 100%;
+     height: auto;
+}
+img.social {
+     width: 113%;
+     height: auto;
+}
+.social-wrapper {
+     padding: 0;
+     Margin: 0;
+}
+div[style*="Margin: 16px 0"] { 
+     Margin:0 !important;
+}
+span {
+     color: #58a618;
+     font-weight: bold;
+}
+a.blue {
+     color: #0067c5;
+     font-weight: bold;
+     text-decoration: none;
+}
+.footer {
+     font-size: 10px;
+     font-weight: lighter;
+}
+.footer a {
+     text-decoration: none;
+     color: #0000EE;
+}
+a:visited {
+     color: #0000EE;
+}
+a.nodec {
+     text-decoration: none;
+     color: #333333;
+}
+.inner {
+    padding: 10px;
+}
+.h1 {
+     font-size: 21px;
+    font-weight: bold;
+     Margin: 16px 0 8px;
+}
+.h2 {
+    font-size: 18px;
+     font-weight: normal;
+     Margin: 6px 0;
+}
+.col-header {
+     Margin: 16px 0 24px;
+}
+p {
+    Margin: 0;
+}
+p.read-more, td.read-more {
+     display: none;
+}
+button {
+     padding: 10px 5px;
+     text-align: center;
+     display: block;
+     width: 100%;
+     background-color: #0078BF;
+     color: white;
+     border-radius: 3px;
+     Margin: 20px auto;
+     font-size: 1em;
+     text-decoration: none;
+     border: none;
+     cursor: pointer;
+}
+a.button {
+     text-decoration: none;
+     display: block;
+     cursor: pointer;
+}
+td.button-wrapper {
+     padding-top: 0;
+     padding-bottom: 0;
+}
+.read-more > a {
+    text-decoration: none;
+    color: white;
+}
+/*Two column layout*/
+.two-column {
+    text-align: center;
+}
+.two-column .column {
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+.contents {
+    width: 100%;
+}
+.two-column .contents {
+    font-size: 14px;
+    text-align: left;
+}
+.two-column img {
+    width: 100%;
+    max-width: 270px;
+    height: auto;
+    padding-top: 6px;
+}
+.two-column .text {
+    text-align: left;
+} 
+/* begin styles for screens larger than 414px */ 
+@media only screen and (min-width: 568px) { 
+.two-column {
+     width: 50% !important;
+}
+.two-column img {
+    width: 100% !important; /* added "important" to these 3 lines BZ */
+    max-width: 100% !important;
+    height: auto !important;
+}
+td.read-more {
+     display: block !important;
+     padding-bottom: 8px;
+}
+td.button-wrapper {
+     padding-top: 15px;
+     padding-bottom: 15px;
+}
+p.read-more {
+     text-align: right;
+     background-color: inherit;
+     border: none;
+     display: block !important;
+     width: auto;
+     color: inherit;
+     padding-bottom: 15px;
+}
+.read-more > a {
+     text-decoration: underline !important;
+     color: #0000EE !important;
+}
+button {
+     display: none !important;
+}
+
+}
+</style>
+</head>
+<body style="padding: 0;background-color: #eaeaea;margin: 0 !important;">
+   <center class="wrapper" style="width: 100%;table-layout: fixed;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;"> <!-- to center contents and hold a few global CSS properties (webmail clients often strip <body> tag) -->
+       <div class="webkit" style="max-width: 600px;margin: 0 auto;"> <!--  for earlier versions of WebKit-powered mail clients (basically only Apple Mail 6 and below, and Outlook 2011 in some cases) -->
+<!--[if (gte mso 9)|(IE)]>
+<table width="600" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td>
+<![endif]-->
+                         <p style="font-size: .9em;background-color: #eaeaea;padding-top: 1.5em;padding-bottom: 1em;margin: 0;">If you are having trouble viewing this message, <a href="#" target="_blank">see it in your browser</a>.</p>
+                         <table class="outer" align="center" style="border-spacing: 0;font-family: sans-serif;color: #333333;background-color: #ffffff;margin: 0 auto;width: 100%;max-width: 600px;">
+ <!--[if (gte mso 9)|(IE)]>
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+<![endif]-->
+                            <tr>
+                                <td align="center" class="full-width-image" style="padding: 0;">
+                                    <table cellspacing="0" cellpadding="0" align="center" style="border-spacing: 0;font-family: sans-serif;color: #333333;background-color: #ffffff;">
+                                        <tr>
+                                            <td>
+                                                <img src="http://placehold.it/600x100" width="600" alt="banner" style="display: inline-block;width: 100%;height: auto;max-width: 600px;">
+                                           </td>
+                                      </tr>
+                                 </table>
+                            </td>
+                       </tr>
+                       <tr>
+                           <table class="contents two-column" cellspacing="" cellpadding="15px" align="left" style="background-color: white;color: black;border-spacing: 0;font-family: sans-serif;width: 100%;text-align: center;">
+                                <tr>
+                                    <td>
+                                        <img src="http://placehold.it/270x175" width="270" alt="column 1 image" style="display: inline-block;width: 100%;height: auto;max-width: 270px;padding-top: 6px;">
+                                        <table style="border-spacing: 0;font-family: sans-serif;color: #333333;background-color: #ffffff;">
+                                             <tr class="text" style="text-align: left;">
+                                                  <td>
+                                                   <p class=" h2 col-header" style="margin: 16px 0 24px;font-size: 18px;font-weight: normal;">Column Header 1</p>
+                                                   <p style="margin: 0;">Your body text goes here. This is what a <a href="#">link</a> looks like. You can use the editor to create headings and paragraphs, and to apply styles and colors. You can also add more blocks like this one by clicking on the "plus" icon.</p>
+                                              </td>
+                                         </tr>
+                                    </table>
+                               </td>
+                          </tr>
+                          <tr>
+                               <td class="button-wrapper">
+                                    <a class="button" href="http://netapp.com" style="text-decoration: none;display: block;cursor: pointer;"><button style="padding: 10px 5px;text-align: center;display: block;width: 100%;background-color: #0078BF;color: white;border-radius: 3px;margin: 20px auto;font-size: 1em;text-decoration: none;border: none;cursor: pointer;">Read more</button></a>
+                                    <p class="read-more" style="margin: 0;display: none;"><a href="http://netapp.com" style="text-decoration: none;color: white;">Read More</a></p>
+                               </td>
+                          </tr>
+                     </table>
+<!--[if (gte mso 9)|(IE)]>
+</td><td width="50%" valign="top">
+<![endif]-->
+                     <table class="contents two-column" cellspacing="" cellpadding="15px" align="left" style="background-color: white;color: black;border-spacing: 0;font-family: sans-serif;width: 100%;text-align: center;">
+                         <tr>
+                             <td>
+                                 <img src="http://placehold.it/270x175" width="270" alt="column 2 image" style="display: inline-block;width: 100%;height: auto;max-width: 270px;padding-top: 6px;">
+                                 <table style="border-spacing: 0;font-family: sans-serif;color: #333333;background-color: #ffffff;">
+                                     <tr class="text" style="text-align: left;">
+                                          <td>
+                                           <p class="h2 col-header" style="margin: 16px 0 24px;font-size: 18px;font-weight: normal;">Column Header 2</p>
+                                           <p style="margin: 0;">Your body text goes here. This is what a <a href="#">link</a> looks like. You can use the editor to create headings and paragraphs, and to apply styles and colors. You can also add more blocks like this one by clicking on the "plus" icon.</p>
+                                      </td>
+                                 </tr>
+                            </table>
+                       </td>
+                  </tr>
+                  <tr>
+                   <td class="button-wrapper">
+                        <a class="button" href="http://netapp.com" style="text-decoration: none;display: block;cursor: pointer;"><button style="padding: 10px 5px;text-align: center;display: block;width: 100%;background-color: #0078BF;color: white;border-radius: 3px;margin: 20px auto;font-size: 1em;text-decoration: none;border: none;cursor: pointer;">Read more</button></a>
+                        <p class="read-more" style="margin: 0;display: none;"><a href="http://netapp.com" style="text-decoration: none;color: white;">Read More</a></p>
+                   </td>
+              </tr>
+         </table>
+<!--[if (gte mso 9)|(IE)]>
+</td>
+</tr>
+</table>
+<![endif]-->
+    </tr>
+    <table class="contents" cellspacing="0" cellpadding="15px" align="center" style="border-spacing: 0;font-family: sans-serif;color: #333333;background-color: #ffffff;width: 100%;">
+      <tr>
+          <td>
+              <img src="http://placehold.it/570x100" style="display: inline-block;width: 100%;height: auto;">
+              <table style="border-spacing: 0;font-family: sans-serif;color: #333333;background-color: #ffffff;">
+                   <tr class="text">
+                        <td>
+                         <p class="h1" style="margin: 16px 0 8px;font-size: 21px;font-weight: bold;">Headline Style Placeholder</p>
+                         <p class="h2" style="margin: 6px 0;font-size: 18px;font-weight: normal;">Subheading Style Placeholder</p>
+                         <p style="margin: 0;">Your body text goes here. This is what a <a href="#">link</a> looks like. You can use the editor to create headings and paragraphs, and to apply styles and colors. You can also add more blocks like this one by clicking on the "plus" icon.</p>
+                         <a class="button" href="http://netapp.com" style="text-decoration: none;display: block;cursor: pointer;"><button style="padding: 10px 5px;text-align: center;display: block;width: 100%;background-color: #0078BF;color: white;border-radius: 3px;margin: 20px auto;font-size: 1em;text-decoration: none;border: none;cursor: pointer;">Read More</button></a>
+                    </td>
+               </tr>
+          </table>
+     </td>
+     </tr><tr>
+         <td class="read-more" style="display: none;">
+              <p class="read-more" style="margin: 0;display: none;"><a href="http://netapp.com" style="text-decoration: none;color: white;">Read More</a></p>
+         </td>
+    </tr>
+
+</table>
+<!-- begin footer table -->
+<table cellspacing="0" cellpadding="0" width="100%" align="center" style="background-color: #f5f5f5;border-top: 1px solid #f2f2f2;padding-top: 15px;border-spacing: 0;font-family: sans-serif;color: #333333;">
+     <tr>
+          <td>
+               <table class="footer" align="left" cellpadding="5px" style="padding-left: 20px;padding-right: 20px;padding-bottom: 20px;background-color: #f5f5f5;border-spacing: 0;font-family: sans-serif;color: #333333;font-size: 10px;font-weight: lighter;">
+                    <tr>
+                         <td>
+                              &copy; 2016 NetApp | Privacy Policy | <span class="nodec" style="text-decoration: none;color: #333333;"><unsubscribe>Unsubscribe</unsubscribe></span> | Update My Profile | Contact Us
+                         </td>
+                    </tr>
+                    <tr>
+                         <td>
+                              495 E. Java Drive, Sunnyvale, CA 94089 USA
+                         </td>
+                    </tr>
+                    <tr style="padding: 14px 0; display: inline-flex;">
+                         <td>
+                              Stay Connected: 
+                         </td>
+                         <td class="social-wrapper" style="padding-left: 10px;padding: 0;margin: 0;">
+                              <a href="http://www.youtube.com/netapp" style="text-decoration: none;color: #0000EE;"><img class="social" src="https://s3-us-west-2.amazonaws.com/bmz-images/youtubeicon.png" alt="youtube" style="display: inline-block;width: 113%;height: auto;"></a>
+                         </td>
+                         <td class="social-wrapper" style="padding: 0;margin: 0;">
+                              <a href="http://www.facebook.com/netapp" style="text-decoration: none;color: #0000EE;"><img class="social" src="https://s3-us-west-2.amazonaws.com/bmz-images/facebookicon.png" alt="facebook" style="display: inline-block;width: 113%;height: auto;"></a>
+                         </td>
+                         <td class="social-wrapper" style="padding: 0;margin: 0;">
+                              <a href="http://www.twitter.com/netapp" style="text-decoration: none;color: #0000EE;"><img class="social" src="https://s3-us-west-2.amazonaws.com/bmz-images/twittericon.png" alt="twitter" style="display: inline-block;width: 113%;height: auto;"></a>
+                         </td>
+                         <td class="social-wrapper" style="padding: 0;margin: 0;">
+                              <a href="https://www.linkedin.com/company/netapp" style="text-decoration: none;color: #0000EE;"><img class="social" src="https://s3-us-west-2.amazonaws.com/bmz-images/linkedinicon.png" alt="linkedin" style="display: inline-block;width: 113%;height: auto;"></a>
+                         </td>
+                    </tr>
+                    <tr>
+                         <td>
+                              <p style="margin: 0;">&#42;Source: Aliquan ut urna diam. Integer lacus ex, dictum sit amet facilis ac, congue scelerisque nisi. Etiam non luctus nunc.</p> 
+                         </td>
+                    </tr>
+                    <tr>
+                         <td> <p style="margin: 0;">You are receiving this email at <a href="#" style="text-decoration: none;color: #0000EE;">example@email.com</a> because you opted to receive communications from NetApp.</p></td>
+                    </tr>
+
+               </table>
+          </td>
+     </tr>
+</table>   <!-- close footer table -->
+
+
+</table>
+<!--[if (gte mso 9)|(IE)]>
+</td>
+</tr>
+</table>
+<![endif]-->
+        </div>
+   </center>
+</body>
+</html>
