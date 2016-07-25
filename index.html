@@ -14,7 +14,6 @@
 <![endif] -->
 <title></title>
 <style type="text/css">
-
 @media only screen and (max-device-width: 568px) {
   html {
     font-family: arial;
@@ -39,14 +38,6 @@
   .full-width-image img {
     width: 100%;
     max-width: 600px;
-  }
-  td [class="headercell"] {
-    background-image: url(http://placehold.it/325x115);
-    width: 325px !important;
-    height: 100px !important;
-  }
-  td[class="headercell"] img {
-    display: none;
   }
   .wrapper {
     width: 100%;
@@ -180,7 +171,6 @@
   }
   .two-column img {
     width: 100%;
-    max-width: 270px;
     height: auto;
     padding-top: 6px;
   }
@@ -188,16 +178,13 @@
     text-align: left;
   } 
 }
-/* begin styles for screens larger than 568px */ 
+
 @media only screen and (min-width: 568px) { 
-  td[class="headercell"] img {
-    display: block;    
-  }
   .two-column {
     width: 50% !important;
   }
  .two-column img {
-    width: 100% !important; /* added "important" to these 3 lines BZ */
+    width: 100% !important; 
     max-width: 100% !important;
     height: auto !important;
   }
@@ -222,10 +209,9 @@
     text-decoration: underline !important;
     color: #0000EE !important;
   }
-  button {
+  button, a.button {
     display: none !important;
   }
-
 }
 </style>
 </head>
@@ -239,7 +225,10 @@
 <tr>
 <td>
 <![endif]-->
-    <p style="font-size: .9em;background-color: #eaeaea;padding-top: 1.5em;padding-bottom: 1em;margin: 0;">If you are having trouble viewing this message, <a href="https://bmzirbes.github.io/demandgen_responsive/" target="_blank">see it in your browser</a>.</p>
+<div style="display:none;font-size:1px;color:#eaeaea;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">
+  Responsive email by Brian Zirbes | This is preview text, visible in some clients but not in the opened message.             
+</div>
+    <p style="font-size: .8em;background-color: #eaeaea;padding-top: 1em;padding-bottom: 1em;margin: 0;">If you are having trouble viewing this message, <a href="https://bmzirbes.github.io/demandgen_responsive/" target="_blank">see it in your browser</a>.</p>
     <table class="outer" align="center" style="border-spacing: 0;font-family: sans-serif;color: #333333;background-color: #ffffff;margin: 0 auto;width: 100%;max-width: 600px;">
 <!--[if (gte mso 9)|(IE)]>
 <table width="100%">
@@ -250,26 +239,18 @@
           <td align="center" class="full-width-image" style="padding: 0;">
             <table cellspacing="0" cellpadding="0" align="center" style="border-spacing: 0;font-family: sans-serif;color: #333333;background-color: #ffffff;">
               <tr>
-                <td class="headercell">
+                <td>
                   <img src="http://placehold.it/600x100" width="600" alt="banner image" style="display: inline-block;width: 100%;height: auto;max-width: 600px;" />
                 </td>
               </tr>
             </table>
           </td>
         </tr>
-
         <tr>
-          <td class="two-column">
-<!--[if (gte mso 9)|(IE)]>
-        <table width="100%">
-        <tr>
-        <td width="50%" valign="top">
-        <![endif]-->
-        <div class="column">
           <table class="contents two-column" cellspacing="" cellpadding="15px" align="left" style="background-color: white;color: black;border-spacing: 0;font-family: sans-serif;width: 100%;text-align: center;">
             <tr>
               <td>
-                <img src="http://placehold.it/270x175" width="270" alt="column 1 image" style="display: inline-block;width: 100%;height: auto;max-width: 270px;padding-top: 6px;" />
+                <img src="http://placehold.it/270x175" width="270" alt="column 1 image" style="display: inline-block;width: 100%;height: auto; padding-top: 6px;" />
                   <table style="border-spacing: 0;font-family: sans-serif;color: #333333;background-color: #ffffff;">
                     <tr class="text" style="text-align: left;">
                       <td>
@@ -283,21 +264,19 @@
             <tr>
               <td class="button-wrapper">
                 <a class="button" href="http://netapp.com" style="text-decoration: none;display: block;cursor: pointer;">
-                  <button style="padding: 10px 5px;text-align: center;display: block;width: 100%;background-color: #0078BF;color: white;border-radius: 3px;margin: 20px auto;font-size: 1em;text-decoration: none;border: none;cursor: pointer;">Read more</button>
+                  <button style="padding: 10px 5px;text-align: center;display: block!important;width: 100%;background-color: #0078BF;color: white;border-radius: 3px;margin: 20px auto;font-size: 1em;text-decoration: none;border: none;cursor: pointer;">Read more</button>
                 </a>
                 <p class="read-more" style="margin: 0;display: none;"><a href="http://netapp.com" style="text-decoration: none;color: white;">Read More</a></p>
               </td>
             </tr>
           </table>
-        </div>
 <!--[if (gte mso 9)|(IE)]>
 </td><td width="50%" valign="top">
 <![endif]-->
-<div class="column">
           <table class="contents two-column" cellspacing="" cellpadding="15px" align="left" style="background-color: white;color: black;border-spacing: 0;font-family: sans-serif;width: 100%;text-align: center;">
            <tr>
              <td>
-               <img src="http://placehold.it/270x175" width="270" alt="column 2 image" style="display: inline-block;width: 100%;height: auto;max-width: 270px;padding-top: 6px;" />
+               <img src="http://placehold.it/270x175" width="270" alt="column 2 image" style="display: inline-block;width: 100%;height: auto; padding-top: 6px;" />
                 <table style="border-spacing: 0;font-family: sans-serif;color: #333333;background-color: #ffffff;">
                   <tr class="text" style="text-align: left;">
                     <td>
@@ -311,24 +290,19 @@
             <tr>
               <td class="button-wrapper">
                 <a class="button" href="http://netapp.com" style="text-decoration: none;display: block;cursor: pointer;">
-                  <button style="padding: 10px 5px;text-align: center;display: block;width: 100%;background-color: #0078BF;color: white;border-radius: 3px;margin: 20px auto;font-size: 1em;text-decoration: none;border: none;cursor: pointer;">Read more</button>
+                  <button style="padding: 10px 5px;text-align: center;display: block !important;width: 100%;background-color: #0078BF;color: white;border-radius: 3px;margin: 20px auto;font-size: 1em;text-decoration: none;border: none;cursor: pointer;">Read more</button>
                 </a>
                 <p class="read-more" style="margin: 0;display: none;"><a href="http://netapp.com" style="text-decoration: none;color: white;">Read More</a></p>
               </td>
             </tr>
           </table>
-        </div>
-           
+        </tr>          
 <!--[if (gte mso 9)|(IE)]>
 </td>
 </tr>
 </table>
 <![endif]-->
-      </td>
-     </tr>
 
-      <tr>
-        <td class="one-column">
           <table class="contents" cellspacing="0" cellpadding="15px" align="center" style="border-spacing: 0;font-family: sans-serif;color: #333333;background-color: #ffffff;width: 100%;">
             <tr>
               <td>
@@ -339,7 +313,7 @@
                        <p class="h1" style="margin: 16px 0 8px;font-size: 21px;font-weight: bold;">Headline Style Placeholder</p>
                        <p class="h2" style="margin: 6px 0;font-size: 18px;font-weight: normal;">Subheading Style Placeholder</p>
                        <p style="margin: 0;">Your body text goes here. This is what a <a href="#">link</a> looks like. You can use the editor to create headings and paragraphs, and to apply styles and colors. You can also add more blocks like this one by clicking on the "plus" icon.</p>
-                       <a class="button" href="http://netapp.com" style="text-decoration: none;display: block;cursor: pointer;">
+                       <a class="button" href="http://netapp.com" style="text-decoration: none;display: block !important;cursor: pointer;">
                          <button style="padding: 10px 5px;text-align: center;display: block;width: 100%;background-color: #0078BF;color: white;border-radius: 3px;margin: 20px auto;font-size: 1em;text-decoration: none;border: none;cursor: pointer;">Read More</button>
                        </a>
                     </td>
@@ -355,11 +329,6 @@
               </td>
             </tr>
           </table>
-        </td>
-      </tr>
-
-      <tr>
-        <td class="one-column">
           <!-- begin footer table -->
           <table cellspacing="0" cellpadding="0" width="100%" align="center" style="background-color: #f5f5f5;border-top: 1px solid #f2f2f2;padding-top: 15px;border-spacing: 0;font-family: sans-serif;color: #333333;">
            <tr>
@@ -415,17 +384,15 @@
               </tr>
           <!-- close footer table -->
           </table>   
-        </td>
-      </tr>
 
 <!-- close outer table -->
-    </table> 
+        </table> 
 <!--[if (gte mso 9)|(IE)]>
 </td>
 </tr>
 </table>
 <![endif]-->
-    </div>
-  </center>
-</body>
+      </div>
+    </center>
+  </body>
 </html>
